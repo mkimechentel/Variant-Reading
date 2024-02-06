@@ -1,0 +1,66 @@
+{
+  "id" : "https://mkimechentel.github.io/Variant Reading/images/manifest.json",
+  "label" : {
+    "en" : [ "All images loaded in mkimechentel/Variant-Reading project" ]
+  },
+  "type" : "Manifest",
+  "@context" : "http://iiif.io/api/presentation/3/context.json",
+  "items" : [ {
+    "width" : 471,
+    "id" : "https://mkimechentel.github.io/Variant Reading/images/Hafs_2_85/canvas/",
+    "label" : {
+      "none" : [ "Hafs_2_85" ]
+    },
+    "type" : "Canvas",
+    "items" : [ {
+      "id" : "https://mkimechentel.github.io/Variant Reading/images/Hafs_2_85/AnnoPage/",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "motivation" : "Painting",
+        "id" : "https://mkimechentel.github.io/Variant Reading/images/Hafs_2_85/annotation/",
+        "type" : "Annotation",
+        "body" : {
+          "service" : [ {
+            "tiles" : [ {
+              "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
+              "width" : 1024,
+              "height" : 1024
+            } ],
+            "protocol" : "http://iiif.io/api/image",
+            "sizes" : [ {
+              "width" : 15,
+              "height" : 21
+            }, {
+              "width" : 30,
+              "height" : 41
+            }, {
+              "width" : 59,
+              "height" : 81
+            }, {
+              "width" : 118,
+              "height" : 161
+            }, {
+              "width" : 236,
+              "height" : 321
+            }, {
+              "width" : 471,
+              "height" : 641
+            } ],
+            "profile" : "http://iiif.io/api/image/2/level0.json",
+            "width" : 471,
+            "@id" : "https://mkimechentel.github.io/Variant Reading/images/Hafs_2_85",
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "height" : 641
+          } ],
+          "format" : "image/jpeg",
+          "width" : 471,
+          "id" : "https://mkimechentel.github.io/Variant Reading/images/Hafs_2_85/full/full/0/default.jpg",
+          "type" : "Image",
+          "height" : 641
+        },
+        "target" : "https://mkimechentel.github.io/Variant Reading/images/Hafs_2_85/canvas/"
+      } ]
+    } ],
+    "height" : 641
+  } ]
+}
